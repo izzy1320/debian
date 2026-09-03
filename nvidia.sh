@@ -27,3 +27,8 @@ sudo sed -i '/GRUB_CMDLINE_LINUX_DEFAULT=/ s/"$/ intel_pstate=active nvidia-drm.
 
 # Update GRUB configurations to apply changes
 sudo update-grub
+
+# Finish
+echo "Nvidia drivers installed and grub updated.  Rebooting system now..."
+sleep 3
+sudo reboot
