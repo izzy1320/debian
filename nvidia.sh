@@ -13,7 +13,7 @@ sudo dpkg -i ./cuda-keyring_1.1-1_all.deb
 sudo apt update
 
 # Pin the 610 branch
-sudo apt install -y nvidia-driver-pinning-610
+sudo apt install -y nvidia-driver-pinning-615
 
 # Install Driver
 sudo apt install -y linux-headers-$(uname -r)
